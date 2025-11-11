@@ -37,7 +37,7 @@ Final_Proj/
 1. **Economic Growth Trends** - Major economies comparison (1960-2020)
 2. **Health Indicator Evolution** - Regional demographic changes
 3. **Education & Demographics** - Working-age population trends
-4. **Economic Inequality** - Development and inequality metrics
+4. **Population Growth Trends** - Demographic transitions in developing nations
 5. **Climate & CO₂ Emissions** - Environmental indicators
 6. **Digital Infrastructure** - Broadband/internet growth
 

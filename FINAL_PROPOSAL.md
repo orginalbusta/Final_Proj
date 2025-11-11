@@ -51,10 +51,10 @@ Regional comparison of demographic and health metrics across North America, Euro
 
 Working-age population trends showing demographic transitions in major economies, reflecting education and development patterns.
 
-### Visualization 4: Economic Inequality Indicators
-![Poverty Indicators](visualizations/04_poverty_decline.png)
+### Visualization 4: Population Growth Trends
+![Population Growth](visualizations/04_poverty_decline.png)
 
-Time series showing economic growth and inequality metrics for developing nations, capturing important development stories of poverty reduction.
+Multi-line time series showing annual population growth rates for major developing nations (China, India, Brazil, Nigeria, Bangladesh, Mexico). Reveals demographic transitions and development patterns, from rapid growth in the 1960s-1980s to declining rates as nations modernize.
 
 ### Visualization 5: Climate & CO₂ Emissions
 ![Climate Emissions](visualizations/05_climate_emissions.png)
