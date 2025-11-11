@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of History - Project Proposal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .team-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .team-name {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .team-member {
+            padding: 8px 0;
+            font-size: 1.05em;
+        }
+        
+        .dataset-box {
+            background: #e3f2fd;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #2196f3;
+        }
+        
+        .dataset-box h3 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+        
+        .dataset-box a {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .dataset-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .dataset-details {
+            margin: 15px 0;
+            line-height: 1.8;
+        }
+        
+        .description-box {
+            background: #fff3e0;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #ff9800;
+            margin: 20px 0;
+            line-height: 1.8;
+            font-size: 1.05em;
+        }
+        
+        .viz-item {
+            margin-bottom: 50px;
+            background: #fafafa;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .viz-item h3 {
+            color: #764ba2;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        .viz-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .viz-description {
+            color: #555;
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            line-height: 1.7;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .highlight {
+            background: #fff59d;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Echoes of History</h1>
+            <p class="subtitle">An Interactive Exploration of Human Development (1960-2020)</p>
+            <p style="margin-top: 15px; opacity: 0.9;">DSC 209R Final Project Proposal</p>
+        </header>
+        
+        <div class="content">
+            <!-- Team Information -->
+            <div class="section">
+                <h2>Team Information</h2>
+                <div class="team-info">
+                    <div class="team-name">🎯 Team Data Echoes</div>
+                    <div class="team-member">👤 Camila Paik - capaik@ucsd.edu - A13500891</div>
+                    <div class="team-member">👤 Gabrielle Despaigne - gdespaigne@ucsd.edu - A69036674</div>
+                    <div class="team-member">👤 Harsh Arya - harya@ucsd.edu - A14644435</div>
+                    <div class="team-member">👤 Raghav Vasappanavara - rvasappanavara@ucsd.edu - A69037944</div>
+                </div>
+            </div>
+            
+            <!-- Project Title -->
+            <div class="section">
+                <h2>Project Title</h2>
+                <p style="font-size: 1.3em; font-weight: bold; color: #764ba2; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                    "Echoes of History: An Interactive Exploration of Human Development (1960-2020)"
+                </p>
+            </div>
+            
+            <!-- Dataset -->
+            <div class="section">
+                <h2>Dataset</h2>
+                <div class="dataset-box">
+                    <h3>📊 World Bank Data by Indicators (1960-2020)</h3>
+                    <div class="dataset-details">
+                        <p><strong>Source:</strong> <a href="https://github.com/light-and-salt/World-Bank-Data-by-Indicators" target="_blank">https://github.com/light-and-salt/World-Bank-Data-by-Indicators</a></p>
+                        <p><strong>Description:</strong> Pre-cleaned World Bank data tracking 250+ countries across 20 development indicators (climate change, economy, education, health, infrastructure, poverty, etc.) from 1960-2020</p>
+                        <p><strong>Size:</strong> Each indicator file contains <span class="highlight">10,000+ rows</span> and <span class="highlight">50+ columns</span></p>
+                        <p><strong>Type:</strong> Real-world data (not synthetic)</p>
+                    </div>
+                </div>
+                
+                <h3 style="color: #667eea; margin: 30px 0 15px 0;">Why This Dataset?</h3>
+                <p style="line-height: 1.8; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                    This dataset is uniquely positioned for an explorable explanation because it spans 60 years of global development during pivotal historical moments—the Cold War, China's economic reforms, the digital revolution, and the 2008 financial crisis. With 20 interconnected indicators across 250+ countries, we can create interactive narratives showing how major events rippled through nations, affecting everything from life expectancy to carbon emissions. The comprehensive coverage allows us to contrast different developmental trajectories and reveal patterns invisible when examining single indicators or countries in isolation.
+                </p>
+            </div>
+            
+            <!-- Project Description -->
+            <div class="section">
+                <h2>Project Description</h2>
+                <div class="description-box">
+                    <p>
+                        We will create an interactive web-based explorable explanation that transforms 60 years of global development data into an engaging narrative experience. Users will explore through three main modes: <strong>(1) a Timeline Navigator</strong> for scrubbing through decades while watching animated global changes with historical event annotations; <strong>(2) Country Deep Dives</strong> where users select any nation to see its development story across all 20 indicators with contextual explanations; and <strong>(3) Cross-National Pattern Analysis</strong> enabling comparisons of how different regions responded to shared challenges.
+                    </p>
+                    <p style="margin-top: 15px;">
+                        The experience will emphasize visual storytelling through smooth transitions, linked views, and responsive animations, revealing human stories like how the Green Revolution transformed poverty in Asia, how digital infrastructure created new divides, and how environmental policies shaped our climate crisis. We'll build the visualization using D3.js for custom interactivity, Scrollama.js for scroll-driven storytelling, and deploy as a responsive, publicly accessible webpage.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Visualizations -->
+            <div class="section">
+                <h2>Static Visualizations</h2>
+                
+                <div class="viz-item">
+                    <h3>📈 Visualization 1: Economic Growth Trends (1960-2020)</h3>
+                    <img src="visualizations/01_gdp_trends.png" alt="GDP Trends">
+                    <div class="viz-description">
+                        Multi-line time series comparing economic indicators for major economies (United States, China, Germany, Japan, India, Brazil). Shows dramatic shifts in global economic power over six decades.
+                    </div>
+                </div>
+                
+                <div class="viz-item">
+                    <h3>🏥 Visualization 2: Health Indicator Evolution by Region</h3>
+                    <img src="visualizations/02_life_expectancy.png" alt="Health Indicators">
+                    <div class="viz-description">
+                        Regional comparison of demographic and health metrics across North America, Europe, East Asia, South Asia, Africa, and Latin America, illustrating global health convergence and persistent disparities.
+                    </div>
+                </div>
+                
+                <div class="viz-item">
+                    <h3>📚 Visualization 3: Education & Demographics Trends</h3>
+                    <img src="visualizations/03_education_progress.png" alt="Education Progress">
+                    <div class="viz-description">
+                        Working-age population trends showing demographic transitions in major economies, reflecting education and development patterns.
+                    </div>
+                </div>
+                
+                <div class="viz-item">
+                    <h3>💰 Visualization 4: Economic Inequality Indicators</h3>
+                    <img src="visualizations/04_poverty_decline.png" alt="Poverty Indicators">
+                    <div class="viz-description">
+                        Time series showing economic growth and inequality metrics for developing nations, capturing important development stories of poverty reduction.
+                    </div>
+                </div>
+                
+                <div class="viz-item">
+                    <h3>🌍 Visualization 5: Climate & CO₂ Emissions</h3>
+                    <img src="visualizations/05_climate_emissions.png" alt="Climate Emissions">
+                    <div class="viz-description">
+                        Comparison of CO₂ emissions and climate metrics across major economies, revealing environmental costs of industrialization and recent sustainability efforts.
+                    </div>
+                </div>
+                
+                <div class="viz-item">
+                    <h3>💻 Visualization 6: Digital Infrastructure Development</h3>
+                    <img src="visualizations/06_infrastructure_development.png" alt="Infrastructure Development">
+                    <div class="viz-description">
+                        Two-panel visualization showing broadband/internet infrastructure growth (2000-2020) and current digital access comparison, demonstrating the digital divide.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p><strong>DSC 209R - Data Visualization | Fall 2025</strong></p>
+            <p style="margin-top: 10px; opacity: 0.9;">Team Data Echoes</p>
+            <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
+                Submission Date: November 14, 2025
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+
