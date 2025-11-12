@@ -36,10 +36,10 @@ We will create an interactive web-based explorable explanation that transforms 6
 
 ## Static Visualizations
 
-### Visualization 1: Economic Growth Trends (1960-2020)
+### Visualization 1: GDP Growth Trends (1960-2020)
 ![GDP Trends](visualizations/01_gdp_trends.png)
 
-Multi-line time series comparing economic indicators for major economies (United States, China, Germany, Japan, India, Brazil). Shows dramatic shifts in global economic power over six decades.
+Two-panel visualization showing GDP growth for major economies (United States, China, Germany, Japan, India, Brazil). Left panel displays absolute GDP in trillions (constant 2010 US$), while right panel shows indexed growth rates (base year = 100 on log scale). Reveals dramatic shifts in global economic power, particularly China's exponential growth and varying development trajectories.
 
 ### Visualization 2: Health Indicator Evolution by Region
 ![Health Indicators](visualizations/02_life_expectancy.png)
