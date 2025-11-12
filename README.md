@@ -1,4 +1,4 @@
-# Echoes of History: An Interactive Exploration of Human Development (1960-2020)
+# Echoes of History: Human Development Visualization (1960-2020)
 
 ## DSC 209R Final Project - Team Data Echoes
 
@@ -14,50 +14,28 @@
 
 An interactive web-based explorable explanation visualizing 60 years of global development using World Bank data across 20 key indicators and 250+ countries.
 
-## Dataset
-
-**World Bank Data by Indicators (1960-2020)**
-- Source: https://github.com/light-and-salt/World-Bank-Data-by-Indicators
-- 20 indicator categories (climate, economy, education, health, infrastructure, poverty, etc.)
-- 250+ countries, 60 years (1960-2020)
-
-## Project Structure
-
-```
-Final_Proj/
-├── FINAL_PROPOSAL.md          # Main proposal document for submission
-├── visualizations/             # 6 static visualizations (PNG)
-├── data/                       # Downloaded World Bank datasets
-├── src/                        # Python scripts for data processing
-└── requirements.txt            # Python dependencies
-```
-
-## Visualizations
-
-1. **Economic Growth Trends** - Major economies comparison (1960-2020)
-2. **Health Indicator Evolution** - Regional demographic changes
-3. **Education & Demographics** - Working-age population trends
-4. **Population Growth Trends** - Demographic transitions in developing nations
-5. **Climate & CO₂ Emissions** - Environmental indicators
-6. **Digital Infrastructure** - Broadband/internet growth
-
-## Setup (Optional)
-
-To regenerate visualizations:
-
-```bash
-pip install -r requirements.txt
-cd src
-python download_data.py
-python create_visualizations_v2.py
-```
-
-## Submission
-
-- **Team Registration:** Wed 11/12, 11:59pm
-- **Proposal:** Fri 11/14, 11:59pm
-- **Main Document:** `FINAL_PROPOSAL.md`
+**Dataset:** World Bank Data by Indicators (1960-2020)  
+**Source:** https://github.com/light-and-salt/World-Bank-Data-by-Indicators
 
 ---
 
-**Course:** DSC 209R - Data Visualization | Fall 2025
+## View the Proposal
+
+**Webpage:** Open `proposal.html` or visit https://orginalbusta.github.io/Final_Proj/  
+**Document:** See `FINAL_PROPOSAL.md`
+
+---
+
+## Visualizations
+
+1. **GDP Growth Trends** - Two-panel economic growth comparison (1960-2020)
+2. **Health & Demographics** - Regional health indicators evolution
+3. **Mobile Penetration Growth** - Digital revolution across nations
+4. **Population Growth Trends** - Demographic transitions in developing countries
+5. **Climate & CO₂ Emissions** - Environmental impact indicators
+6. **Digital Infrastructure** - Broadband and internet access development
+
+---
+
+**Course:** DSC 209R - Data Visualization | Fall 2025  
+**Repository:** https://github.com/orginalbusta/Final_Proj
